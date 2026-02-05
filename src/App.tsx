@@ -56,6 +56,13 @@ const data = [
   //           </svg>`
   // },
   {
+    id: 1,
+    title: "UY SHAROITIDA ONLINE KURS ",
+
+    link: "#",
+    icon: `<svg class="p-3" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-warehouse-icon lucide-warehouse"><path d="M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11"/><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8z"/><path d="M6 13h12"/><path d="M6 17h12"/></svg>`
+  },
+  {
     id: 3,
     title: "YouTube",
 
@@ -97,7 +104,7 @@ const data = [
   },
   {
     id: 5,
-    title: "Telegram",
+    title: "Telegram kanal",
 
     link: "https://t.me/hayot_aliy",
     icon: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +124,7 @@ const data = [
 
   {
     id: 5,
-    title: "Telegram",
+    title: "Telegram shaxsiy",
 
     link: "https://t.me/addiktolog_hayot",
     icon: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +150,7 @@ export default function App() {
       className="relative bg-white top w-full min-h-screen pt-[101px] sm:pt-[140px] md:pb-[20px]  bg-no-repeat sm:bg-top bg-[auto_200px] sm:bg-cover 2xl:px-[92px]   3xl:min-h-screen"
 
     >
-      <div className="here w-full mx-auto max-w-[900px] px-0 md:px-[15px]">
+      <div className="here mx-auto max-w-[900px] px-0 md:px-[15px]">
         <div className="bg-[#FFFFFF] shadow-lg  border-b border rounded-t-[20px] sm:rounded-[20px] py-[24px] md:py-[44px] ">
           <img className="rounded-full mx-auto mb-10 -mt-[50px] w-[100px] h-[100px] object-cover" alt="img" width={100} height={100} src={"/IMG_7442.JPG"} />
           <div className="px-[24px] md:px-[89px]">
@@ -166,7 +173,7 @@ export default function App() {
                   className="border-[#D8D8D8]   rounded-xl border-solid border-[1px]  md:border-0 "
                   dangerouslySetInnerHTML={{ __html: e?.icon }}
                 />
-                <p className="mr-auto font-semibold text-[16px] leading-[19px]">
+                <p className="mr-auto font-semibold text-[14px] leading-[19px]">
                   {e?.title}
                 </p>
                 <LinkIcons />
