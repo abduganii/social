@@ -1,4 +1,4 @@
-export const LinkIcons = ({ color }: any) => {
+export const LinkIcons = () => {
     return (
         <>
             <svg
@@ -16,7 +16,7 @@ export const LinkIcons = ({ color }: any) => {
         </>
     );
 };
-export const Link1Icons = ({ color }: any) => {
+export const Link1Icons = () => {
     return (
         <>
             <svg
