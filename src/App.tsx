@@ -140,12 +140,12 @@ export default function App() {
 
   return (
     <div
-      className="relative bg-[#090221;] top w-full min-h-screen pt-[101px] sm:pt-[140px] md:pb-[20px]  bg-no-repeat sm:bg-top bg-[auto_200px] sm:bg-cover 2xl:px-[92px]   3xl:min-h-screen"
+      className="relative bg-white top w-full min-h-screen pt-[101px] sm:pt-[140px] md:pb-[20px]  bg-no-repeat sm:bg-top bg-[auto_200px] sm:bg-cover 2xl:px-[92px]   3xl:min-h-screen"
 
     >
       <div className="here w-full mx-auto max-w-[900px] px-0 md:px-[15px]">
-        <div className="bg-[#FFFFFF] rounded-t-[20px] sm:rounded-[20px] py-[24px] md:py-[44px] ">
-          <img className="rounded-full mx-auto mb-10 -mt-[80px] w-[100px] h-[100px] object-cover" alt="img" width={100} height={100} src={"/IMG_7442.JPG"} />
+        <div className="bg-[#FFFFFF] shadow-lg  border-b border rounded-t-[20px] sm:rounded-[20px] py-[24px] md:py-[44px] ">
+          <img className="rounded-full mx-auto mb-10 -mt-[50px] w-[100px] h-[100px] object-cover" alt="img" width={100} height={100} src={"/IMG_7442.JPG"} />
           <div className="px-[24px] md:px-[89px]">
             <h3 className="text-[14px] text-center leading-[18px]  md:text-[24px] md:leading-[28px] mb-[24px] font-medium ">
               <span className="block mb-2">🔹  Men — Hayot Yakhyayev, insonlarni narkomaniya, alkogolizm, qimor o‘yinlariga (igromaniya) va boshqa turdagi qaramliklardan ozod bo‘lish yo‘lida yo‘naltiruvchi mutaxassisman.</span>
