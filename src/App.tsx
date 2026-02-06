@@ -156,9 +156,7 @@ export default function App() {
           <img className="rounded-full mx-auto mb-10 -mt-[50px] w-[100px] h-[100px] object-cover" alt="img" width={100} height={100} src={"/IMG_7442.JPG"} />
           <div className="px-[24px] md:px-[89px]">
             <h3 className="text-[14px] text-center leading-[18px]  md:text-[24px] md:leading-[28px] mb-[24px] font-medium ">
-              <span className="block mb-2">🔹  Men — Hayot Yakhyayev, insonlarni narkomaniya, alkogolizm, qimor o‘yinlariga (igromaniya) va boshqa turdagi qaramliklardan ozod bo‘lish yo‘lida yo‘naltiruvchi mutaxassisman.</span>
-
-
+              <span className="block mb-2">🔹  Men — Hayot Yahyayev Dilmurodovich, insonlarni narkomaniya, alkogolizm, igromaniya va boshqa turdagi qaramliklardan ozod bo‘lishga yordam beruvchi mutaxassisman.</span>
               👇 Agar siz yoki yaqinlaringiz qaramlik muammosi bilan yuzlashayotgan bo‘lsangiz — kechikmang! Tezroq murojaat qiling.
             </h3>
 
